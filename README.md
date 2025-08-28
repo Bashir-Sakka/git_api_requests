@@ -1,2 +1,9 @@
 # git_api_requests
-A GitHub user search app that fetches and displays a user's repositories, avatar, and details in a responsive Bootstrap card layout.
+## Project Overview
+This project allows users to search for a GitHub username and fetch their public repositories.  
+Each repository is displayed in a Bootstrap grid-based card that shows:
+- The user's avatar
+- Repository name
+- Repository description
+- A button linking to the repo
+
