@@ -1,7 +1,1 @@
-## Project Overview
-This project allows users to search for a GitHub username and fetch their public repositories.  
-Each repository is displayed in a Bootstrap grid-based card that shows:
-- The user's avatar
-- Repository name
-- Repository description
-- A button linking to the repo
+
