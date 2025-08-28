@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.858) !important;
+    height: 5000px;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+
+.repo-container {
+    max-width: 800px;
+    background-color: rgba(28, 26, 26, 0.858);
+    margin: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.repo-input {
+    padding: 20px;
+    display: flex;
+    background-color: rgba(28, 26, 26, 0.858)
+}
+
+.repo-container .repo-input input {
+    padding: 15px 20px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    height: 54px;
+}
+
+.repo-container .repo-input input:focus {
+    outline: 1px solid #F44366;
+}
+
+.repo-container .repo-input .get-btn {
+    width: 140px;
+    height: 54px;
+    margin-left: 10px;
+    color: #FFF;
+    background-color: #F44366;
+    line-height: 54px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.repo-container .show-data {
+    padding: 20px;
+    background-color: #E0E0;
+
+}
+
+.repo-container .show-data .repo-box {
+    padding: 15px;
+    background-color: black;
+    min-height: 538px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.955), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.repo-container .show-data .repo-box a,
+.repo-container .show-data .repo-box span {
+    float: right;
+
+    width: 79px;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.repo-container .show-data .repo-box a {
+    float: left;
+}
+
+.repo-container .show-data .repo-box a {
+    background-color: #E91e63;
+    text-decoration: none;
+}
+
+.repo-container .show-data .repo-box span {
+    background-color: #009688;
+}
+
+.dropdown-content {
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    max-height: 0;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 634.41px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 70px;
+    transform: translateY(6px)
+}
+
+.dropdown-content.show {
+
+    max-height: max-content;
+    /* set a large enough value */
+}
+
+.dropdown {
+    position: relative;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.repo-box {}
